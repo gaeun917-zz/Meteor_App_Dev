@@ -99,10 +99,40 @@ tell meteor what is allowed on server
 
 
 
+------- creating clean web and REST service ---------
+
+1. Iron router (well documneted )
+    install
+    what user are looking for, control page, state of the app
+    $meteor add iron:router
+    $ meteor remove autopublish
 
 
+2. Iron router template 
+ applying template 
+    snippet.html
+    template name="main"
+    
+    client.js
+    Route.configure(
+        layoutTemplate:"main"
+    )
+   global 
+    REST.js
+    Route.route() : Header metadata
 
 
+ 
+3. createing REST endpoint
+    
+    support post 
+    edit via PUT 
+    removing with DELETE
+    
+    postman chrome extension
+    $ meteor npm install --save bcrypt
+
+----- responsive ui ---------
 
 
 

@@ -3,4 +3,9 @@
 
 //snippets is the main html
 
-Meteor.subscribe('snippets')
+Meteor.subscribe('snippets');
+// snippet.html <template name='main'>
+// make rest.js on server folder
+Router.configure({
+    layoutTemplate : 'main'
+});

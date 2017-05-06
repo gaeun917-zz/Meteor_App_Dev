@@ -4,7 +4,6 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-autopublish@1.0.7
 twbs:bootstrap
 accounts-password@1.3.6
 ian:accounts-ui-bootstrap-3
@@ -25,3 +24,4 @@ check
 standard-minifier-css
 standard-minifier-js
 shell-server
+iron:router
