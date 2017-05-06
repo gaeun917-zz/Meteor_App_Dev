@@ -1,0 +1,16 @@
+<template name="snippets">
+<div class="container">
+    <!--Snippets.insert({text:"first"}), spacebar template syntax
+    conditional function isLink, snippets on snippet helper
+    -->
+{{#each snippets}}
+    {{#if isLink}}
+            <a href="{{URL}}">
+                <div class="snippet">{{text}}</div>
+            </a>
+        {{else}}
+        <div class="snippet">{{text}}</div>
+{{/if}}
+{{/each}}
+</div>
+</template>
